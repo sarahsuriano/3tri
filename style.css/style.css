@@ -7,18 +7,55 @@ body {
 
 header {
     text-align: center;
+    background-color: #000;
+    color: white;
     padding: 20px;
 }
 
 .banner {
-    background-color: #3498db;
+    background-color: #e84c3d;
     color: white;
-    padding: 50px;
+    padding: 20px;
     border-radius: 10px;
     transition: background-color 0.3s ease;
     cursor: pointer;
 }
 
 .banner:hover {
-    background-color: #2980b9;
+    background-color: #c0392b;
+}
+
+main {
+    padding: 20px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
